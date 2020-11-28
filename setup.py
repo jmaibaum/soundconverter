@@ -58,9 +58,9 @@ DistUtilsExtra.auto.setup(
     ),
     license='GPL-3.0',
     data_files=[
-        ('share/metainfo/', ['data/soundconverter.appdata.xml']),
-        ('share/pixmaps/', ['data/soundconverter.png']),
-        ('share/icons/hicolor/scalable/apps/', ['data/soundconverter.svg'])
+        ('share/metainfo/', ['data/org.soundconverter.SoundConverter.appdata.xml']),
+        ('share/pixmaps/', ['data/org.soundconverter.SoundConverter.png']),
+        ('share/icons/hicolor/scalable/apps/', ['data/org.soundconverter.SoundConverter.svg'])
     ],
     cmdclass={
         'install': Install
